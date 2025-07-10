@@ -58,6 +58,7 @@ nav h1{
 .main-container{
     margin: 0px;
     background-color: aliceblue;
+    padding-bottom: 70px;
 }
 
 /* Action Section */
@@ -100,8 +101,72 @@ nav h1{
     font-size: 70px;
     font-weight: 900;
     color: rgba(78, 71, 255, 1);
-    margin-bottom: 0px;
+    margin: 0px auto;
 }
 .productive-para{
     margin-top: 0px;
+}
+
+/* Feedback Section */
+
+.feedback-section{
+    width: 85%;
+    margin: 100px auto;
+}
+.feedback-header{
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0px;
+}
+.feedback-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 70px;
+}
+.feedback-contain{
+    background-color: white;
+    padding: 20px 40px 20px 20px;
+    border: none;
+    border-radius: 20px;
+}
+.review-content{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.review-img{
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 100%;
+}
+.review-name{
+    margin-bottom: 0px;
+    color: gray;
+    font-weight: bold;
+}
+.date{
+    margin-top: 0px;
+    color: darkgray;
+}
+
+/* Ready to focus section */
+
+.focus-container{
+    text-align: center;
+}
+.focus-contain{
+    width: 85%;
+    margin: 0px auto;
+    background-color: white;
+    padding: 40px 0px;
+    border: none;
+    border-radius: 30px;
+}
+.focus-img{
+    margin-top: 20px;
+    border: none;
+    border-radius: 30px;
 }
