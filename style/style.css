@@ -11,6 +11,13 @@
   font-style: normal;
 }
 
+button:hover{
+    color: black;
+    background-color: yellowgreen;
+    cursor: pointer;
+    transition: 2s ease;
+}
+
 /* Header */
 
 header{
@@ -213,4 +220,22 @@ nav h1{
     padding: 20px 200px;
     border: none;
     border-radius: 10px;
+}
+
+/* Footer */
+footer{
+    width: 40%;
+    margin: 100px auto;
+    text-align: center;
+}
+.footer-header{
+    color: rgba(78, 71, 255, 1);
+    font-size: 70px;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+.footer-anchor{
+    text-decoration: none;
+    color: gray;
+    margin: 20px;
 }
