@@ -3,9 +3,16 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 header{
     background-image: url(../assets/Hero-bg.png);
-    padding-bottom: 50px;
+    padding-bottom: 10px;
+    margin: 0px;
 }
 nav{
     width: 85%;
@@ -32,6 +39,28 @@ nav h1{
     margin: 100px 0px;
 }
 .banner-header{
-    font-size: 50px;
+    font-size: 60px;
     font-family: 900;
+}
+.main-container{
+    margin: 0px;
+    background-color: aliceblue;
+}
+.action-section{
+    margin: 0px auto;
+    width: 85%;
+    padding: 100px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.action-header{
+    font-size: 35px;
+}
+.text-para{
+    color: gray;
+}
+.action-img{
+    border: none;
+    border-radius: 50px;
 }
