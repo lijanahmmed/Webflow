@@ -170,3 +170,47 @@ nav h1{
     border: none;
     border-radius: 30px;
 }
+
+/* Let’s Get In Touch Section */
+
+.touch-section{
+    width: 85%;
+    margin: 100px auto 0px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    align-items: center;
+}
+.touch-header{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.touch-label{
+    display: block;
+    font-weight: bold;
+    margin: 10px;
+}
+.touch-input{
+    padding: 20px 300px 20px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 5px;
+    border: none;
+}
+.touch-input2{
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 20px 20px 20px 20px;
+    margin: 5px;
+    border: none;
+}
+.touch-btn{
+    color: white;
+    font-weight: 600;
+    background-color: rgba(78, 71, 255, 1);
+    margin: 15px;
+    padding: 20px 200px;
+    border: none;
+    border-radius: 10px;
+}
